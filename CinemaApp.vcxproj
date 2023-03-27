@@ -129,6 +129,16 @@
   <ItemGroup>
     <ClCompile Include="application.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cinema_hall.h" />
+    <ClInclude Include="customer.h" />
+    <ClInclude Include="dialogs.h" />
+    <ClInclude Include="header_library.h" />
+    <ClInclude Include="movie.h" />
+    <ClInclude Include="screens.h" />
+    <ClInclude Include="showtime.h" />
+    <ClInclude Include="ticket.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

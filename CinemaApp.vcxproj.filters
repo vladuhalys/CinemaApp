@@ -13,10 +13,48 @@
     <Filter Include="user interface">
       <UniqueIdentifier>{7799347b-694a-4fe7-8337-d22bffeeb565}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain\entities">
+      <UniqueIdentifier>{f1bbb473-3901-42a9-870c-92a9527a3658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\usecase">
+      <UniqueIdentifier>{3c229be8-54b4-4fdb-8ed7-097717059314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user interface\dialogs">
+      <UniqueIdentifier>{f750fe18-368a-4c58-abf6-23154d000934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user interface\screens">
+      <UniqueIdentifier>{369f83df-b731-4312-ab76-bacf595367ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp">
       <Filter>internal</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="movie.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cinema_hall.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ticket.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="customer.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="showtime.h">
+      <Filter>domain\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="header_library.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogs.h">
+      <Filter>user interface\dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="screens.h">
+      <Filter>user interface\screens</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
