@@ -130,9 +130,11 @@
     <ClCompile Include="application.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="buy_ticket.h" />
     <ClInclude Include="cinema_hall.h" />
     <ClInclude Include="customer.h" />
     <ClInclude Include="dialogs.h" />
+    <ClInclude Include="get_list_movies.h" />
     <ClInclude Include="header_library.h" />
     <ClInclude Include="movie.h" />
     <ClInclude Include="screens.h" />

@@ -1,4 +1,4 @@
-﻿#include "header_library.h"
+﻿#include "showtime.h"
 
 class Gener
 {
@@ -69,6 +69,7 @@ private:
 	string genre;
 	int year;
 	float rate;
+	vector<Date> dates;
 public:
 	string getGenre() {
 		return genre;
@@ -82,8 +83,17 @@ public:
 	int getYear() {
 		return year;
 	}
+	float getRate() {
+		return rate;
+	}
+	vector<Date> getDates() {
+		return dates;
+	}
 	void setRate(float rate) {
 		this->rate = rate;
+	}
+	void setOneDate(Date date) {
+		this->dates.push_back(date);
 	}
 	Movie() {
 		this->title = "No title";
@@ -106,5 +116,8 @@ public:
 	}
 	Movie(string title, string description, string genre, int year, float rate) : Movie(title, description, genre, year) {
 		this->rate = rate;
+	}
+	Movie(string title, string description, string genre, int year, float rate, vector<Date> dates) : Movie(title, description, genre, year, rate) {
+		this->dates = dates;
 	}
 };

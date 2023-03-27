@@ -56,5 +56,11 @@
     <ClInclude Include="screens.h">
       <Filter>user interface\screens</Filter>
     </ClInclude>
+    <ClInclude Include="buy_ticket.h">
+      <Filter>domain\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="get_list_movies.h">
+      <Filter>domain\usecase</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
