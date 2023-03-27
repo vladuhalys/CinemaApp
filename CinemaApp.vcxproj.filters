@@ -1,2 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="internal">
+      <UniqueIdentifier>{4d4557fb-da4a-4954-bc8a-d555c701294c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{196afe35-2847-42ba-b961-9f7efcb0d842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{2827ed80-5b90-4229-a1be-322d0550d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user interface">
+      <UniqueIdentifier>{7799347b-694a-4fe7-8337-d22bffeeb565}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
